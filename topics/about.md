@@ -1,4 +1,4 @@
-# About
+# About [product]
 
 This first section is written in lwDITA which gives authors an alternate method of contributing content.
 
