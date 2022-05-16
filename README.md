@@ -1,2 +1,5 @@
 # dita-demo-setup
- Simple lwDITA setup for understanding & testing
+
+DITA setup for understanding & testing concepts
+
+For contributing using lwDITA see the example [about.md](topics/about.md).
