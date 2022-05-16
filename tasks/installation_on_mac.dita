@@ -2,8 +2,8 @@
 <!DOCTYPE task PUBLIC "-//OASIS//DTD DITA Task//EN" "task.dtd">
 <task id="installation_on_mac">
   <title>Installation on Mac</title>
-  <shortdesc>This task describes how to install the desktop version of the <keyword
-    keyref="product"/> messenging application.</shortdesc>
+  <shortdesc>This task describes how to install the full desktop version of the <keyword
+      keyref="product"/> messaging application.</shortdesc>
   <prolog>
     <metadata>
       <keywords>
