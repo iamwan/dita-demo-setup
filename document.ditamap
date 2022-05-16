@@ -2,6 +2,7 @@
 <!DOCTYPE map PUBLIC "-//OASIS//DTD DITA Map//EN" "map.dtd">
 <map>
  <title><ph keyref="product"/></title>
+ <topicref href="topics/about.md" format="markdown"/>
  <topicref href="topics/installation.dita">
   <topicref keyref="windows_installation"/>
   <topicref keyref="mac_installation"/>
