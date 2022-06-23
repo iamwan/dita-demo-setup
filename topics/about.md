@@ -7,7 +7,7 @@ This first section is written in lwDITA which gives authors an alternate method 
 ## Markdown
 
 - Bulleted
-- Bullet 
+- Bullet 2
 
 1. Numbered lists
 1. Numbered list two
