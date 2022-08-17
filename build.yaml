@@ -1,4 +1,0 @@
----
-contexts:
-  - id: 'html'
-    input: 'document.ditamap'
