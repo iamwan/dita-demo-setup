@@ -1,6 +1,6 @@
 ---
 includes:
-  - 'build.yaml'
+  - 'common.yaml'
 deliverables:
   - name: 'HTML5'
     context:
@@ -16,7 +16,7 @@ deliverables:
         - name: 'args.csspath'
           value: 'css'
         - name: 'args.cssroot'
-          path: 'css'
+          path: '../css'
         - name: 'args.gen.task.lbl'
           value: 'YES'
         - name: 'html5.toc.generate'
