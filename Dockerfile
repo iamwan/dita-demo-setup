@@ -2,4 +2,4 @@
 FROM ghcr.io/dita-ot/dita-ot:3.7.2
 
 # Install plugins
-RUN dita install com.elovirta.ooxml
+# RUN dita install com.elovirta.ooxml
