@@ -10,7 +10,7 @@ echo "\n\nBuilding the dita image...\n\n"
 docker build --no-cache -t dita . 
 
 echo "\n\nExporting HTML ...\n\n"
-docker run --name dita_container -it -v `pwd`:/src dita -p /src/html.yaml -o /src/out -f html5 -v && \
+docker run --rm -it -v `pwd`:/src ghcr.io/dita-ot/dita-ot:3.6.1  -p /src/resources/html.yaml -o /src/out -f html5 -v
 wait 
 
 # && \

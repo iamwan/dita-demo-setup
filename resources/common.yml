@@ -1,7 +1,0 @@
----
-contexts:
-  - id: 'html'
-    input: '../document.ditamap'
-    profiles:
-      ditavals:
-        - '../filters/html.ditaval'
