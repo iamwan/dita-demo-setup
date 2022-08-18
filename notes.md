@@ -17,11 +17,11 @@ author: Owen Rowe
 ## Build HTML
 
 ```
-docker run -it -v /Users/owenrowe/git/dita-demo-setup:/src ghcr.io/dita-ot/dita-ot:3.6.1  -p html.yaml -o out -f html5 -v
+docker run --rm -it -v `pwd`:/src ghcr.io/dita-ot/dita-ot:3.6.1  -p /src/resources/html.yaml -o /src/out -f html5 -v
 ```
 
 ## Build PDF
 
 ```
-docker run --rm -v /Users/owenrowe/git/dita-demo-setup/out:/src minidocks/weasyprint /src/document.html /src/success.pdf
+docker run --rm -v `pwd`:/src minidocks/weasyprint /src/out/document.html /src/out/success.pdf
 ```
