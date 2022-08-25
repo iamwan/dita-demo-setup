@@ -1,3 +1,110 @@
-h2 {
-    color: red;
-}
+/*#
+@info@STYLES BASKET SELECTIONS METADATA@info@
+@name&styles_basket&name@
+@aspects&wh-tiles,accent-colors-selector,page-size-a4,initial-page-print,toc-numbering-deep,theme-fonts-segoe-ui,titles-color-background&aspects@
+@info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICIATION CAN CAUSE UPLOADING ERRORS@info@
+#*/
+/* Bold selection in Publication TOC. WebHelp only. */
+@media screen {
+    .wh_publication_toc .active > .topicref a {
+      font-weight: bold;
+    }
+  }
+  /*accent-colors-selector*/
+  .topictitle1,
+  .topictitle2,
+  .topictitle3,
+  .topictitle4,
+  .topictitle5,
+  .topictitle6,
+  *[class~='front-page/front-page-title'],
+  *[class~="toc/title"],
+  *[class~="placeholder/figurelist"] > *[class~="topic/title"],
+  *[class~="placeholder/tablelist"] > *[class~="topic/title"],
+  *[class~="index/groups"]::before {
+    color: #000000;
+  }
+  *[class~='topic/shortdesc']:before {
+    color: #000000;
+  }
+  *[class~='topic/xref'],
+  *[class~='topic/link'] {
+    color: #0000ee;
+  }
+  .related-links a,
+  .related-links a:visited {
+    color: #0000ee;
+  }
+  a,
+  a:hover,
+  a:visited {
+    color: #0000ee;
+  }
+  *[class~='topic/table'] th {
+    background-color: #ffffff;
+  }
+  /*theme-fonts-segoe-ui*/
+  @page {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+  }
+  .topictitle1,
+  .topictitle2,
+  *[class~='front-page/front-page-title'],
+  *[class~="toc/title"],
+  *[class~='topic/title'],
+  *[class~='topic/thead'],
+  *[class~="placeholder/figurelist"],
+  *[class~="placeholder/tablelist"],
+  *[class~="index/groups"]::before,
+  *[class~="index/group"] > *[class~="index/label"],
+  .wh_publication_title,
+  .wh_top_menu,
+  .wh_tile_title .topicref,
+  .wh_main_page_toc_entry .topicref,
+  .wh_index_terms span.wh_first_letter,
+  .wh-letters li a {
+    font-family: 'Segoe UI', sans-serif;
+    font-weight: bold;
+  }
+  *[class~="map/topicref"] {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  .topictitle3,
+  .topictitle4,
+  .topictitle5,
+  .topictitle6 {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  body {
+    font-family: 'Segoe UI', sans-serif;
+  }
+  /*titles-color-background*/
+  .topictitle1,
+  .topictitle2,
+  .topictitle3,
+  .topictitle4,
+  .topictitle5,
+  .topictitle6,
+  *[class~="toc/title"],
+  *[class~="placeholder/figurelist"] > *[class~="topic/title"],
+  *[class~="placeholder/tablelist"] > *[class~="topic/title"],
+  *[class~="index/groups"]::before {
+    padding-left: 0.25em;
+    padding-right: 0.25em;
+    background-color: #ffffff;
+  }
+  /*page-size-a4*/
+  @media print {
+    @page {
+      size: A4;
+    }
+  }
+  /*initial-page-print*/
+  @page chapter {
+    -oxy-initial-page-number: auto-odd;
+  }
+  /*toc-numbering-deep*/
+  /*wh-tiles*/
+  
+  
