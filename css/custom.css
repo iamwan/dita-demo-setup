@@ -5,6 +5,11 @@
 @info@WARNING: PLEASE DON'T MODIFY THIS FILE. MODIFICIATION CAN CAUSE UPLOADING ERRORS@info@
 #*/
 /* Bold selection in Publication TOC. WebHelp only. */
+
+h1 {
+color: red;
+}
+
 @media screen {
     .wh_publication_toc .active > .topicref a {
       font-weight: bold;
