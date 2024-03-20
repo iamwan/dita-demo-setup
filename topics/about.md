@@ -1,8 +1,8 @@
 # About [product]
 
-This banana first section is writen in lwDITA which gives authors an alternate method of contributing content.
+This banana first section is written in lwDITA which gives authors an alternate method of contributing content.
 
-[Markdown](http://www.markdownguide.org) is a lighweight syntax that can be used for contributing content into a DITA workflow.
+[Markdown](http://www.markdownguide.org) is a lightweight syntax that can be used for contributing content into a DITA workflow.
 
 ## Markdown
 
